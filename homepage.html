@@ -1,0 +1,46 @@
+<!--HTML file for the home page for "Bounce the Ball."-->
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="content-type"
+        content="application/xhtml+xml; charset=utf-8" />
+
+    <title>Bounce the Ball</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css" />
+	<script type="text/javascript" src="homepage.js"></script>
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+
+<!-- Body Begins Here -->
+<body id="background">
+
+    <div id="page"><img src="images/introscreen.png" alt="" />
+	   <div id="1playergame" style="position:absolute; left:400px; top:230px;"><a href="bouncyball.html"><img src="images/1playergame.png" alt="1playergame" /></a></div>
+	   <div id="2playergame" style="position:absolute; left:400px; top:300px;"><a href="volleyball.html"><img src="images/2playergame.png" alt="2playergame" /></a></div>
+	   
+	   <div id="instructions" style="position:absolute; left:490px; top:370px;">
+        <a href="javascript:unhideTwo('lightbox','bigimage');">
+		    <img src="images/instructions.png" alt="instructions" />
+		</a>
+    </div>
+	
+	<div class="hidden" id="lightbox" style="left:30px;"></div>
+	
+	<div id="bigimage" class="hidden" style="left:30px;">
+	    <a href="javascript: unhideTwo('lightbox','bigimage');">
+		    <img src="images/twoinstructions.png" alt="spiderman" />
+		</a>
+	</div>
+	</div>
+	</div>
+	
+	<a href="homepage.html"><img src="images/homeIcon.png" alt="Home" href="homepage.html" style="position:absolute; right:70px; top:230px;"/></a>
+	</body>
+
+</html>

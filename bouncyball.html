@@ -1,0 +1,30 @@
+<!--The HTML file to provide an interface 
+for the 1-player game in "Bounce the Ball."-->
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="content-type"
+        content="application/xhtml+xml; charset=utf-8" />
+
+    <title>Bounce the Ball - 1 Player</title>
+    <link rel="stylesheet" type="text/css" href="bouncyball.css" />
+	<script type="text/javascript" src="bouncyball.js"></script>
+	<link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body onload="init()" id="background">
+
+    <div id="container"><img src="images/1pbackground.png" alt="" />
+        <div id="pony1" style="position:absolute; width:100px; height:100px; left:350px; bottom:10px;"><img src="images/pony1.png" alt="" /></div>
+        <div id="ball" style="position:absolute; left:50px; top:50px;"></div>
+        <div id="score1" style="position:absolute; width:100px; height:100px; left:380px; top:50px; font:Courier-new"></div>
+    </div>
+	
+	<a href="homepage.html"><img src="images/homeIcon.png" alt="Home" href="homepage.html" style="position:absolute; right:70px; top:230px;"/></a>
+</body>
+
+</html>

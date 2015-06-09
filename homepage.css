@@ -1,0 +1,47 @@
+/*CSS styling for the home page.*/
+#background {
+    background-color:black;
+}
+
+#page {
+    position:relative;
+    width:800px;
+    height:600px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#1playergame{
+    position:absolute;
+    top:40px;
+    left:0px;
+}
+
+#2playergame{
+    position:absolute;
+    left:0px;
+    bottom:10px;
+}
+
+#lightbox {
+position:absolute;
+top: 0px;
+left: 0px;
+background-color: black;
+width: 100%;
+height: 100%;
+opacity: 0.4;
+filter: alpha(opacity=40);
+}
+
+#bigimage {
+position: absolute;
+top: 50px;
+width: 100%;
+z-index: 0;
+text-align: center;
+}
+
+.hidden{display: none;}
+.unhidden{display: block;}
